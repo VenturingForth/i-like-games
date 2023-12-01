@@ -124,3 +124,15 @@ footer {
 a {
     color: white;
 }
+
+#food {
+    grid-column: 1 / 4;
+}
+
+#fave {
+    grid-column: 4 / 9;
+}
+
+#not-fave{
+    grid-column: 9 / 13;
+}
