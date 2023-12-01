@@ -1,13 +1,34 @@
 * {
+    box-sizing: border-box;
+}
+
+body {
     background-color: skyblue;
+    width: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: orange;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 0 25px 0 25px;
+    border: dashed rebeccapurple 3px;
 }
 
 img {
     height: 200px;
+    border: solid rebeccapurple 3px;
 }
 
 #zelda {
-    border: solid rebeccapurple 3px;
     border-radius: 100px;
     width: 200px;
 }
